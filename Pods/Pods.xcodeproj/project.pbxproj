@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C2F1E97D15638394830BDCDFC4201A /* SRCountdownTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E64E9FE771E1E9A9826A02830CC142 /* SRCountdownTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D491E06B2347EB0566CF4B4E9EBF626 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		36D53A4E417EC820FEC340F98F797406 /* Pods-MySimon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A83D0C77709C6A77E6B5B09598ED960F /* Pods-MySimon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD45D5ACBF28C8C0D807F4948BEA6515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AFCEC421F2CB7D1DE5B00AC4290A01D0 /* SRCountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA75550AA1EB8B33E941E9E6409F145 /* SRCountdownTimer.swift */; };
+		CE7453BBF4583CB7ADCBBF17B13B072B /* Pods-MySimon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE604D0ED098BA213F9B9FF7D636CE51 /* Pods-MySimon-dummy.m */; };
+		DB50B153EF59594E7A661D687187AE94 /* SRCountdownTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F593674C0C1F368023F9615AF588F7 /* SRCountdownTimer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F675DC315960CF70A727C5A93381711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D11F99FCD0E939F3D469C90FC3A2584;
+			remoteInfo = SRCountdownTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E26053EB7D32C869E4D71924F716AED /* Pods-MySimon-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MySimon-resources.sh"; sourceTree = "<group>"; };
+		14F593674C0C1F368023F9615AF588F7 /* SRCountdownTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRCountdownTimer-dummy.m"; sourceTree = "<group>"; };
+		18E64E9FE771E1E9A9826A02830CC142 /* SRCountdownTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRCountdownTimer-umbrella.h"; sourceTree = "<group>"; };
+		2E049178FDC1926179E1ED5933EF0A4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C7CC0B65544BCF46CDBCDF1DBF79BCB /* SRCountdownTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SRCountdownTimer.modulemap; sourceTree = "<group>"; };
+		79720624A755E92D15C6C38B98825DEB /* Pods-MySimon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MySimon.modulemap"; sourceTree = "<group>"; };
+		82F6323B253F54407BD2F242A46202F0 /* Pods-MySimon-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MySimon-frameworks.sh"; sourceTree = "<group>"; };
+		8DA75550AA1EB8B33E941E9E6409F145 /* SRCountdownTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRCountdownTimer.swift; path = SRCountdownTimer/SRCountdownTimer.swift; sourceTree = "<group>"; };
+		9117423678A863085BE1F77AB71AA40F /* SRCountdownTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRCountdownTimer.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D72061558D21705FB1427D0FA42EDD5 /* Pods-MySimon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MySimon-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A83D0C77709C6A77E6B5B09598ED960F /* Pods-MySimon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MySimon-umbrella.h"; sourceTree = "<group>"; };
+		B49062A251F17A540912868008F88055 /* SRCountdownTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRCountdownTimer-prefix.pch"; sourceTree = "<group>"; };
+		B4DAD9946BDD5E4DB71BB10925A504C4 /* Pods_MySimon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySimon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A94C31F1DF5CFE76F3D378518FE8C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D624CD89A690E1D7F882A6D704C608CA /* Pods-MySimon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MySimon-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEEA2EBE75F6E90D7F28479E94FCBEE2 /* Pods-MySimon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MySimon.release.xcconfig"; sourceTree = "<group>"; };
+		EE604D0ED098BA213F9B9FF7D636CE51 /* Pods-MySimon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MySimon-dummy.m"; sourceTree = "<group>"; };
+		F1CD67090C11B96A55E32EDBC3EAAEDC /* Pods-MySimon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MySimon.debug.xcconfig"; sourceTree = "<group>"; };
+		F37920D44FACA900B046D10444D12E75 /* SRCountdownTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRCountdownTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E0763899D23D0F47696553545D14BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D491E06B2347EB0566CF4B4E9EBF626 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EE9084267F92E01D1D2F62A337B232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD45D5ACBF28C8C0D807F4948BEA6515 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		664665A8AA4F5AB564E9D180E3176228 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD0DEB8C2229C673BFD3486B26B1FBFE /* Pods-MySimon */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B78B6D7DD69F2BD34DAA5730930A0B2F /* Pods */,
+				992BA328B240FFD93BDEDBA4E6AB85CA /* Products */,
+				664665A8AA4F5AB564E9D180E3176228 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83787CBB653DED071B220B2E4D9E5854 /* SRCountdownTimer */ = {
+			isa = PBXGroup;
+			children = (
+				8DA75550AA1EB8B33E941E9E6409F145 /* SRCountdownTimer.swift */,
+				B114BA1E4268C9A99F143504AE87E28F /* Support Files */,
+			);
+			path = SRCountdownTimer;
+			sourceTree = "<group>";
+		};
+		992BA328B240FFD93BDEDBA4E6AB85CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4DAD9946BDD5E4DB71BB10925A504C4 /* Pods_MySimon.framework */,
+				F37920D44FACA900B046D10444D12E75 /* SRCountdownTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B114BA1E4268C9A99F143504AE87E28F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6A94C31F1DF5CFE76F3D378518FE8C1 /* Info.plist */,
+				6C7CC0B65544BCF46CDBCDF1DBF79BCB /* SRCountdownTimer.modulemap */,
+				9117423678A863085BE1F77AB71AA40F /* SRCountdownTimer.xcconfig */,
+				14F593674C0C1F368023F9615AF588F7 /* SRCountdownTimer-dummy.m */,
+				B49062A251F17A540912868008F88055 /* SRCountdownTimer-prefix.pch */,
+				18E64E9FE771E1E9A9826A02830CC142 /* SRCountdownTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SRCountdownTimer";
+			sourceTree = "<group>";
+		};
+		B78B6D7DD69F2BD34DAA5730930A0B2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83787CBB653DED071B220B2E4D9E5854 /* SRCountdownTimer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD0DEB8C2229C673BFD3486B26B1FBFE /* Pods-MySimon */ = {
+			isa = PBXGroup;
+			children = (
+				2E049178FDC1926179E1ED5933EF0A4A /* Info.plist */,
+				79720624A755E92D15C6C38B98825DEB /* Pods-MySimon.modulemap */,
+				9D72061558D21705FB1427D0FA42EDD5 /* Pods-MySimon-acknowledgements.markdown */,
+				D624CD89A690E1D7F882A6D704C608CA /* Pods-MySimon-acknowledgements.plist */,
+				EE604D0ED098BA213F9B9FF7D636CE51 /* Pods-MySimon-dummy.m */,
+				82F6323B253F54407BD2F242A46202F0 /* Pods-MySimon-frameworks.sh */,
+				0E26053EB7D32C869E4D71924F716AED /* Pods-MySimon-resources.sh */,
+				A83D0C77709C6A77E6B5B09598ED960F /* Pods-MySimon-umbrella.h */,
+				F1CD67090C11B96A55E32EDBC3EAAEDC /* Pods-MySimon.debug.xcconfig */,
+				DEEA2EBE75F6E90D7F28479E94FCBEE2 /* Pods-MySimon.release.xcconfig */,
+			);
+			name = "Pods-MySimon";
+			path = "Target Support Files/Pods-MySimon";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39A4C6A6DDE4FC9D3BB65B2AC6591484 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D53A4E417EC820FEC340F98F797406 /* Pods-MySimon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF753CDC923DCEED58EF1945609B24E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C2F1E97D15638394830BDCDFC4201A /* SRCountdownTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		054FDE61347BC6971AB0463C9F3162AF /* Pods-MySimon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16CB264DE7AE8678B52E5E109E150327 /* Build configuration list for PBXNativeTarget "Pods-MySimon" */;
+			buildPhases = (
+				9F241C6E328AAE98B835EBB5A52A28EC /* Sources */,
+				6E0763899D23D0F47696553545D14BD0 /* Frameworks */,
+				39A4C6A6DDE4FC9D3BB65B2AC6591484 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EE6AFC2BC680643484D4DE23D4D439A /* PBXTargetDependency */,
+			);
+			name = "Pods-MySimon";
+			productName = "Pods-MySimon";
+			productReference = B4DAD9946BDD5E4DB71BB10925A504C4 /* Pods_MySimon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D11F99FCD0E939F3D469C90FC3A2584 /* SRCountdownTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E2887B86B8286E77F162F61D1E938C /* Build configuration list for PBXNativeTarget "SRCountdownTimer" */;
+			buildPhases = (
+				5065D0D95553F136F2AEAFC9C839C164 /* Sources */,
+				E9EE9084267F92E01D1D2F62A337B232 /* Frameworks */,
+				BF753CDC923DCEED58EF1945609B24E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRCountdownTimer;
+			productName = SRCountdownTimer;
+			productReference = F37920D44FACA900B046D10444D12E75 /* SRCountdownTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 992BA328B240FFD93BDEDBA4E6AB85CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				054FDE61347BC6971AB0463C9F3162AF /* Pods-MySimon */,
+				1D11F99FCD0E939F3D469C90FC3A2584 /* SRCountdownTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5065D0D95553F136F2AEAFC9C839C164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB50B153EF59594E7A661D687187AE94 /* SRCountdownTimer-dummy.m in Sources */,
+				AFCEC421F2CB7D1DE5B00AC4290A01D0 /* SRCountdownTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F241C6E328AAE98B835EBB5A52A28EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7453BBF4583CB7ADCBBF17B13B072B /* Pods-MySimon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EE6AFC2BC680643484D4DE23D4D439A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SRCountdownTimer;
+			target = 1D11F99FCD0E939F3D469C90FC3A2584 /* SRCountdownTimer */;
+			targetProxy = 7F675DC315960CF70A727C5A93381711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CE91A1CAFDFF863B4A9AFF86625CC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CD67090C11B96A55E32EDBC3EAAEDC /* Pods-MySimon.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MySimon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MySimon/Pods-MySimon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MySimon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59D79FF7ED6DF408BCED81F8ACE8297E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEEA2EBE75F6E90D7F28479E94FCBEE2 /* Pods-MySimon.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MySimon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MySimon/Pods-MySimon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MySimon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2FC93087B78A34500CBD12CFA677194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9117423678A863085BE1F77AB71AA40F /* SRCountdownTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SRCountdownTimer/SRCountdownTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRCountdownTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRCountdownTimer/SRCountdownTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SRCountdownTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2BB77284EFECB53D68A49346F8D585D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9117423678A863085BE1F77AB71AA40F /* SRCountdownTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SRCountdownTimer/SRCountdownTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRCountdownTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRCountdownTimer/SRCountdownTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SRCountdownTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC8212A50BC1BCA4BF1B8BC800078F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16CB264DE7AE8678B52E5E109E150327 /* Build configuration list for PBXNativeTarget "Pods-MySimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE91A1CAFDFF863B4A9AFF86625CC5D /* Debug */,
+				59D79FF7ED6DF408BCED81F8ACE8297E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8212A50BC1BCA4BF1B8BC800078F2F /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E2887B86B8286E77F162F61D1E938C /* Build configuration list for PBXNativeTarget "SRCountdownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FC93087B78A34500CBD12CFA677194 /* Debug */,
+				E2BB77284EFECB53D68A49346F8D585D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
